@@ -40,7 +40,7 @@ class RobotBarman:
 
     # Fonction pour interagir avec OpenAI et obtenir une réponse
     def ask_openai(self,question):
-        openai.api_key = "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"
+        openai.api_key = "sk-0F0HFDXBNJcjgf8611hcpff5815gKGVrDOtj8erm"
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
