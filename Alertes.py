@@ -1,8 +1,6 @@
 from Cocktails import MesCocktails
 from Trajectoires1 import MesTrajectoires
 
-
-
 class Alertes:
     def __init__(self) :
         self.compteur_alcool_1 = 0
